@@ -1,0 +1,28 @@
+$color-primary-h: 50;
+$color-primary-s: 50%;
+$color-primary-l: 50%;
+$color-primary: hsl($color-primary-h, $color-primary-s, $color-primary-l);
+$color-primary-dark: hsl($color-primary-h, $color-primary-s, 25%);
+$color-primary-light: hsl($color-primary-h, $color-primary-s, 70%);
+$color-primary-bg: hsl($color-primary-h, $color-primary-s, 95%);
+$font-family: Helvetica, Arial, sans-serif;
+
+body {
+  font-family: var(--org-font-family, $font-family);
+  background-color: var(--org-color-primary-bg, $color-primary-bg);
+  color: black;
+  padding: 1em;
+  font-size: 120%;
+}
+
+h1 {
+  color: var(--org-color-primary, $color-primary);
+}
+
+h2 {
+  color: var(--org-color-primary-dark, $color-primary-dark);
+}
+
+p {
+  color: var(--org-color-primary-light, $color-primary-light);
+}

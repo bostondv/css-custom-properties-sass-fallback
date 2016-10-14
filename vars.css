@@ -1,0 +1,10 @@
+:root {
+  --org-color-primary-h: 170;
+  --org-color-primary-s: 50%;
+  --org-color-primary-l: 50%;
+  --org-color-primary: hsl(var(--org-color-primary-h), var(--org-color-primary-s), var(--org-color-primary-l));
+  --org-color-primary-dark: hsl(var(--org-color-primary-h), var(--org-color-primary-s), 25%);
+  --org-color-primary-light: hsl(var(--org-color-primary-h), var(--org-color-primary-s), 70%);
+  --org-color-primary-bg: hsl(var(--org-color-primary-h), var(--org-color-primary-s), 95%);
+  --org-font-family: Georgia, 'Times New Roman', serif;
+}
